@@ -1,0 +1,10 @@
+{
+"name": "learncheck-monorepo",
+"version": "1.0.0",
+"scripts": {
+    "install-client": "cd frontend && npm install",
+    "install-server": "cd backend && npm install",
+    "install": "npm run install-client && npm run install-server",
+    "build": "cd frontend && npm run build"
+}
+}
